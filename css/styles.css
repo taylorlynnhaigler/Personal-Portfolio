@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0 auto;
     font-family: "Poiret One", serif;
+    color: #414141;
 }
 
 /* HEADER */
@@ -9,6 +10,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5px;
+
 }
 
     /* LOGO */
@@ -18,6 +20,7 @@ header .logo {
     float: left;
     height: 70px;
 }
+
 .logo h1 {
     font-family: 'Lato', serif;
     font-size: 25px;
@@ -83,23 +86,28 @@ header .navbar li {
     height: 100%;
 }
 
-/*LOYAL */
-.logo h1 {
-    font-family: "Raleway";
+.portfolio2 img {
+    width: 100%;
+    height: 100%;
 }
-.main img {
+
+/*LOYAL */
+.loyal h1 {
+    font-family: 'Lato', serif;
+}
+.loyal img {
     width: 100%;
     padding-top: 40px;
 }
-.main a {
+.loyal a {
     text-decoration: none;
     color: black;
 
 }
-.main a:hover {
+.loyal a:hover {
     color: #4484CE;
 }
-h1 {
+.loyal h1, h2, h3 {
     font-family: 'Lato', serif;
     text-align: center;
 }
@@ -112,13 +120,16 @@ p {
     margin: 10 100px; 
     padding: 0 100px;
 }
-#loyal-logo, #loyal-services, #loyal-contact {
+#loyal-logo-img, #loyal-services, #loyal-contact {
     padding: 30px;
 }
-#loyal-logo {
+#loyal-logo-img {
     display: block;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
+}
+a.hyperlink {
+    color: #4484CE;
 }
 
 /* FOOTER */
@@ -137,10 +148,11 @@ footer .logo h1 {
 }
 
 /* List skillset */
-footer h3 {
+.skills h3 {
     font-family: "Poiret One", serif;
     text-align: center;
     padding-bottom: 40px;
+    color: black;
 }
 
 /* Bottom navigation to pages */
@@ -191,7 +203,7 @@ footer .social a {
 }
 
 footer .social a:hover {
-    color: #4484CE;
+    color: #4484CE;a
 }
 
 footer .social ul {
