@@ -20,13 +20,14 @@ header .th_logo {
 }
 
 .th_logo h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif ;
     font-size: 25px;
+    letter-spacing: .1em;
     color: black;
     margin-left: 20px
 }
 
-.th_logo h1 a {
+.th_logo a {
     text-decoration: none;
     color: black;
 }
@@ -76,14 +77,11 @@ header .navbar li {
 .portfolio1, .portfolio2, .portfolio3 {
     width: 100%;
     height: 350px;
-    background-color: #D48CF8;
-
 }
 
 .portfolio4, .portfolio5, .portfolio6 {
     width: 100%;
     height: 350px;
-    background-color: #F7CE3E;
 }
 
 .portfolio1 img, .portfolio2 img, .portfolio3 img, .portfolio4 img, .portfolio5 img, .portfolio6 img {
@@ -96,7 +94,13 @@ header .navbar li {
     margin-bottom: 50px;
 }
 
-/*----------------------LOYAL------------------------- */
+/*----------------------INDEX--------------------------*/
+
+.underline {
+    text-decoration: underline;
+}
+
+/*----------------------LOYAL--------------------------*/
 #loyal-homepage img {
     width: 100%;
     padding-top: 20px;
@@ -193,19 +197,30 @@ a.hyperlink {
 .about-information {
     width: 50%;
     float: left;
-    margin-top: 100px;
+    margin-top: 20px;
     text-align: center;
 }
 .about-information p {
-    margin: 70px;
+    margin: 65px;
+    line-height: 1.3em;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 .my-image {
     width: 50%;
     float: right;
-    margin-top: 100px;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 .my-image img {
-    width: 60%;
+    width: 65%;
+}
+
+.about-information a {
+    color: #E9967A;
+    text-decoration: none;
+;
+
 }
 
 /* ------------------FOOTER---------------------------------*/
@@ -283,7 +298,7 @@ footer .social a:hover {
 }
 
 footer .social ul {
-    text-align: center;
+    text-align: justify;
     margin: 40px;
 }
 
@@ -294,7 +309,13 @@ footer .social ul li {
     padding-right: 35px;
 
 }
+.fa-linkedin:before {
+    margin-left: -30px;
+}
 
+.social .fa-linkedin:before {
+    margin-left: 45px;
+}
 
 /* ------------------MEDIA QUERIES--------------------------*/
 
@@ -326,7 +347,6 @@ footer .social ul li {
      #menu-button {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 825px){
@@ -344,6 +364,14 @@ footer .social ul li {
     }
     #menu-button {
         display: block;
+    }
+    .about-information {
+        float: none;
+        width: 100%;
+    }
+    .my-image {
+        float: none;
+
     }
 }
 
