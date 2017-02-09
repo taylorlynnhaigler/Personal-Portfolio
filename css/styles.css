@@ -146,9 +146,8 @@ a.hyperlink {
     width: 100%;
 }
 
-#jl-img-1, #jl-img2, #jl-img3, #jl-img4, #jl-img5, #jl-img6, #jl-img7, #jl-img8, #jl-img9 {
-    padding: 30px 0px;
-
+#jl-img-1 {
+    padding-top: 30px;
 }
 
 /*----------------------AUSTIN------------------------------ */
@@ -157,8 +156,8 @@ a.hyperlink {
     width: 100%;
 }
 
-#austin_img1, #austin_img2, #austin_img3 {
-    padding: 30px 0px;
+#austin_img1 {
+    padding-top: 30px;
 }
 
 /*----------------------ACCELERATE-------------------------- */
@@ -171,8 +170,8 @@ a.hyperlink {
     text-decoration: none;
 }
 
-#accelerate_img1, #accelerate_img2, #accelerate_img3, #accelerate_img4, #accelerate_img5, #accelerate_img6 {
-    padding: 30px 0px;
+#accelerate_img1 {
+    padding-top: 30px;
 }
 
 /* -------------------GEMINI------------------------------*/
@@ -180,8 +179,8 @@ a.hyperlink {
 .gemini img {
     width: 100%;
 }
-#gemini_img1, #gemini_img2, #gemini_img3, #gemini_img4, #gemini_img5, #gemini_img6  {
-    padding: 30px 0px;
+#gemini_img1 {
+    padding-top: 30px;
 }
 
 /* -------------------TURTLES------------------------------*/
@@ -189,8 +188,8 @@ a.hyperlink {
 .turtles img {
     width: 100%;
 }
-#turtles_img1, #turtles_img2, #turtles_img3 {
-    padding: 30px 0px;
+#turtles_img1 {
+    padding-top: 30px;
 }
 
 /* -------------------ABOUT------------------------------*/
@@ -199,6 +198,7 @@ a.hyperlink {
     width: 50%;
     float: left;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .about-information p:first-child {
@@ -213,7 +213,12 @@ a.hyperlink {
     width: 50%;
     float: right;
     margin-top: 40px;
+    margin-bottom: 20px;
     padding-top: 40px;
+}
+.center {
+    width: 50%;
+    margin: 0 auto;
 }
 .my-image img {
     width: 230px;
